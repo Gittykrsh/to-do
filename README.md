@@ -1,4 +1,4 @@
-# 📝 To-Do List App (Tkinter GUI)
+# 📝 To-Do List App
 
 A simple and functional **To-Do List App** built with **Python's Tkinter library** to help users manage daily tasks efficiently with enhanced filtering, priority assignment, and visual feedback.
 
@@ -17,6 +17,12 @@ A simple and functional **To-Do List App** built with **Python's Tkinter library
 | 💾 Save/Load (JSON)          | Automatically persist tasks between sessions                               |
 | 📤 Export / 📥 Import         | Save or load task lists externally                                         |
 | 🎨 Visual Feedback           | Grey for completed, red for overdue tasks                                  |
+
+---
+
+## 🖥️ Preview
+
+![Preview](https://github.com/user-attachments/assets/1b09f4d8-0438-4c3a-b8cc-73fb888692f8)
 
 ---
 
@@ -43,9 +49,10 @@ A simple and functional **To-Do List App** built with **Python's Tkinter library
 ## 📁 File Structure
 
 ```
+to-do/
 ├── todo.py              # Main source code
 ├── tasks.json           # Auto-generated task storage file
-├── README.md            # Documentation
+└── README.md            # Documentation
 ```
 
 ---
@@ -58,25 +65,9 @@ A simple and functional **To-Do List App** built with **Python's Tkinter library
 
 ---
 
-## 👨‍💻 Author
-**Shakyasimha Das**
+## 📃 License
+This project is open-source and free to use for learning or demo purposes.
 
 ---
 
-## 📸 Screenshot
-> 💡 You can add a UI screenshot here for presentation or GitHub display.
-
----
-
-## 📌 Conclusion
-
-This app is a practical productivity tool with modern features and a clean UI — ideal for students and professionals who need simple yet powerful task tracking.
-
----
-
-## 🔗 Connect
-Want to collaborate or improve this project? Connect on [LinkedIn](https://www.linkedin.com/)!
-
----
-
-Happy Tasking! 💻📋✨
+Made with ❤️ by Shakyasimha Das
