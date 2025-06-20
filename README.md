@@ -66,8 +66,9 @@ to-do/
 ---
 
 ## 📃 License
+
 This project is open-source and free to use for learning or demo purposes.
 
 ---
 
-Made with ❤️ by Shakyasimha Das
+## Made with ❤️ by Shakyasimha Das.
