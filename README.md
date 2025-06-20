@@ -1,75 +1,60 @@
 # 📝 To-Do List App (Tkinter GUI)
 
-This is a simple and functional **To-Do List App** built using **Python's Tkinter library**. It allows users to manage daily tasks with features like filtering, priority assignment, due date selection, and real-time task stats.
+A simple and functional **To-Do List App** built with **Python's Tkinter library** to help users manage daily tasks efficiently with enhanced filtering, priority assignment, and visual feedback.
 
 ---
 
-## 📌 Problem Statement
-Students and professionals often struggle with organizing and prioritizing tasks effectively. A digital task manager can improve focus and productivity.
+## ⚙️ Key Features Overview
 
----
-
-## 🎯 Objective
-Build a GUI-based Task Manager where users can:
-- ✅ Add, edit, delete, and mark tasks
-- 🏷️ Assign priority and due date
-- 🔍 Filter tasks by status or priority
-- 📆 Show tasks due today
-- 📤 Export/📥 Import tasks (JSON)
-- 📊 View task stats in real time
-- 🧹 Clear all completed tasks in one click
+| Feature                       | Description                                                                 |
+|------------------------------|-----------------------------------------------------------------------------|
+| 📝 Add/Edit/Delete Tasks     | Manage tasks with title, priority, and due date                            |
+| ✅ Mark Completion           | Toggle tasks as completed/incomplete                                       |
+| 🎯 Filtering                 | Filter tasks by priority, status, or due today                             |
+| 📆 Due Date Picker           | Use a calendar widget to set deadlines                                     |
+| 📊 Task Stats                | Live display of total, pending, and completed tasks                        |
+| 🧹 Clear Completed Tasks     | One-click removal of all completed tasks                                   |
+| 💾 Save/Load (JSON)          | Automatically persist tasks between sessions                               |
+| 📤 Export / 📥 Import         | Save or load task lists externally                                         |
+| 🎨 Visual Feedback           | Grey for completed, red for overdue tasks                                  |
 
 ---
 
 ## 🧰 Tools & Technologies
+
 - **Python 3.x**
-- **Tkinter** – GUI
-- **tkcalendar** – Date picker
-- **JSON** – File handling
+- **Tkinter** – GUI framework
+- **tkcalendar** – Date selection widget
+- **JSON** – File handling and persistence
 
 ---
 
-## 🚀 Features
+## 🚀 How to Use
 
-### ✅ Core Features
-- **Add/Edit/Delete Tasks** with priority and due date
-- **Mark tasks as completed/incomplete**
-- **Filter by Priority, Status, or Due Today**
-- **Save/load tasks using JSON**
-
-### 💎 Enhanced Functionality
-- **Real-time Task Stats** (Pending vs Completed)
-- **Clear All Completed Tasks** with alert if none exist
-- **Scrollable task list**
-- **Auto-centered, responsive window layout**
-- **Visual Feedback:**
-  - Greyed out completed tasks
-  - Red for overdue
+1. Run `todo.py`
+2. Enter a task with priority and due date
+3. Use filters to customize view
+4. Mark, edit, or delete tasks
+5. Track task stats in real-time
+6. Export or import your task list as `.json`
 
 ---
 
 ## 📁 File Structure
+
 ```
-├── todo.py              # Main Python source code
-├── tasks.json           # Task data storage file (auto-generated)
-├── README.md            # Project Documentation
+├── todo.py              # Main source code
+├── tasks.json           # Auto-generated task storage file
+├── README.md            # Documentation
 ```
 
 ---
 
-## 🔧 How It Works
-1. Run `todo.py`
-2. Add your task with priority & due date
-3. View real-time status stats below the list
-4. Use filters to organize
-5. Export/Import your list anytime
+## 💡 Possible Enhancements (Future Scope)
 
----
-
-## 💡 Optional Ideas (Not Implemented)
-- Dark Mode Toggle
-- Undo/Redo Support
-- Notification Alerts
+- 🌙 Dark Mode Toggle
+- 🔁 Undo/Redo functionality
+- 🔔 Notification Reminders
 
 ---
 
@@ -79,18 +64,19 @@ Build a GUI-based Task Manager where users can:
 ---
 
 ## 📸 Screenshot
-> 💡 Add screenshot of the final UI here in your repo!
+> 💡 You can add a UI screenshot here for presentation or GitHub display.
 
 ---
 
 ## 📌 Conclusion
-A clean, responsive, and feature-complete productivity tool. Perfect for students and professionals looking to manage their daily tasks efficiently using Python GUI.
+
+This app is a practical productivity tool with modern features and a clean UI — ideal for students and professionals who need simple yet powerful task tracking.
 
 ---
 
 ## 🔗 Connect
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/) or contribute ideas!
+Want to collaborate or improve this project? Connect on [LinkedIn](https://www.linkedin.com/)!
 
 ---
 
-Happy Coding! 💻🎯
+Happy Tasking! 💻📋✨
